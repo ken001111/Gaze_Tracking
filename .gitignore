@@ -47,16 +47,16 @@ logs/
 exports/
 
 # Model files (too large for git - use Git LFS or download separately)
-gaze_tracking/trained_models/opencv_dnn/*.caffemodel
-gaze_tracking/trained_models/opencv_dnn/*.pb
+trained_models/opencv_dnn/*.caffemodel
+trained_models/opencv_dnn/*.pb
 *.caffemodel
 *.pb
 *.onnx
 *.weights
 
 # Keep model structure but not large files
-!gaze_tracking/trained_models/opencv_dnn/.gitkeep
-!gaze_tracking/trained_models/haarcascades/*.xml
+!trained_models/opencv_dnn/.gitkeep
+!trained_models/haarcascades/*.xml
 
 # Temporary files
 *.tmp

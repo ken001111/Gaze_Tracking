@@ -3,11 +3,6 @@ GUI application for real-time gaze tracking.
 Uses tkinter for cross-platform compatibility.
 """
 
-import sys
-import os
-# Add parent directory to path to find gaze_tracking module
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import cv2
@@ -15,10 +10,10 @@ import numpy as np
 from PIL import Image, ImageTk
 import threading
 import time
-from gaze_tracking import GazeTracking
-from gaze_tracking.safety_monitor import SafetyMonitor
-from gaze_tracking.data_logger import DataLogger
-from gaze_tracking.performance_monitor import PerformanceMonitor
+from core import GazeTracking
+from safety_monitor import SafetyMonitor
+from data_logger import DataLogger
+from performance_monitor import PerformanceMonitor
 import config
 
 

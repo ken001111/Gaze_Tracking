@@ -1,0 +1,1 @@
+timestamp,tracker_method,left_pupil_x,left_pupil_y,right_pupil_x,right_pupil_y,left_pupil_diameter,right_pupil_diameter,gaze_angle_horizontal,gaze_angle_vertical,eye_state,drowsiness_score,fps,face_detected,processing_latency_ms
