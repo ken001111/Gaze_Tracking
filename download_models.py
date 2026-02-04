@@ -21,7 +21,8 @@ def download_file(url, destination):
 def main():
     """Download all required model files."""
     base_dir = Path(__file__).parent
-    models_dir = base_dir / "gaze_tracking" / "trained_models"
+    # gaze_tracking is now in the parent Eye directory
+    models_dir = base_dir.parent / "gaze_tracking" / "trained_models"
     
     # Create directories
     dnn_dir = models_dir / "opencv_dnn"

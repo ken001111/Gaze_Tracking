@@ -3,6 +3,11 @@ Demonstration of the GazeTracking library.
 Check the README.md for complete documentation.
 """
 
+import sys
+import os
+# Add parent directory to path to find gaze_tracking module
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import cv2
 from gaze_tracking import GazeTracking
 
