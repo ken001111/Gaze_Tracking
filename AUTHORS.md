@@ -2,10 +2,10 @@
 
 ## Primary Developer
 
-**[Your Name]**
+**Jongseo Ken Lee**
 - Stanford University, Department of Neuroradiology
-- Email: [your.email@stanford.edu]
-- GitHub: [@yourusername]
+- Email: jongseo001111@gmail.com
+- GitHub: [@ken001111](https://github.com/ken001111)
 
 ## Project Information
 
