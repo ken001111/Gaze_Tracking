@@ -30,7 +30,7 @@ A modular, real-time eye tracking system using OpenCV with support for multiple 
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/ken001111/Gaze_Tracking
 cd GazeTracking
 
 # Install dependencies
